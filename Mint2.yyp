@@ -36,10 +36,8 @@
   "name":"Mint2",
   "resources":[
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-    {"id":{"name":"obj_enemy3_1","path":"objects/obj_enemy3_1/obj_enemy3_1.yy",},},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},},
     {"id":{"name":"obj_eye","path":"objects/obj_eye/obj_eye.yy",},},
-    {"id":{"name":"obj_ha_1","path":"objects/obj_ha_1/obj_ha_1.yy",},},
     {"id":{"name":"obj_ha","path":"objects/obj_ha/obj_ha.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},

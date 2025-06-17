@@ -25,4 +25,7 @@ switch (estado) {
 			image_alpha = 0;
         }
         break;
+	case "ativo":
+		y = lerp(y,obj_player.y,0.02)
+	break;
 }
