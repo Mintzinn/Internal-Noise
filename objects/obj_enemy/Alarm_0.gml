@@ -3,15 +3,18 @@ switch(estado_boss){
 		alarm[0] = 60;
 	break;
 	case 1:
-		timer_c1_act = true;
+			if(alarm[2] <= 0){
+				alarm[2] = 500;
+			}
 		var _eye = instance_create_layer(x, y, layer, obj_eye);
 		_eye.direction = point_direction(x,y,obj_player.x,obj_player.y);
 		_eye.speed = 6;
 		alarm[0] = 60;
 	break;
-	timer_c1 = 500;
 	case 2:
-		timer_c2_act = true;
+			if(alarm[2] <= 0){
+				alarm[2] = 350;
+			}
 		if(alarm[1] <= 0)
 			alarm[1] = 120
 		if(ativado)
@@ -26,10 +29,13 @@ switch(estado_boss){
 		_eye2.speed = 5;
 		alarm[0] = 2;
 	break;
-	timer_c2 = 300;
 	case 3:
+		if(alarm[2] <= 0){
+			alarm[2] = 950
+		}
 		instance_create_layer(x + 200, y + 100, layer, obj_enemy3);
 		instance_create_layer(x - 200, y + 100, layer, obj_enemy3);
+		alarm[0] = 1000;
 	break;
 }
 

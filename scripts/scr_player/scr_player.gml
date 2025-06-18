@@ -29,14 +29,4 @@ function scr_player(){
             velv = 0;
         }
         y += velv;
-		
-	if (instance_exists(obj_enemy)){
-		if (keyboard_check_pressed(ord("E"))){
-			with(instance_nearest(x, y, obj_enemy)){
-				dir = dir_ini;
-				estado_boss = 1;
-				ativado = false;
-			}
-		}
-	}
 }

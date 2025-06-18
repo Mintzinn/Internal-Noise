@@ -30,7 +30,3 @@ switch (estado) {
 		y = lerp(y,obj_player.y,0.05)
 	break;
 }
-
-if (estado = "escondido"){
-	obj_enemy.estado_boss = 1;
-}
