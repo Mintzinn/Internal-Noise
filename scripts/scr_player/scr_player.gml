@@ -32,9 +32,11 @@ function scr_player(){
 		
 	if (instance_exists(obj_enemy)){
 		if (keyboard_check_pressed(ord("E"))){
-			with(instance_nearest(x, y, obj_enemy))
-				estado_boss = round(random_range(0,4.5));	
-
+			with(instance_nearest(x, y, obj_enemy)){
+				dir = dir_ini;
+				estado_boss = 1;
+				ativado = false;
+			}
 		}
 	}
 }

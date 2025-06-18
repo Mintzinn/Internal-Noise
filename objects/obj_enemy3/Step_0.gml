@@ -21,11 +21,16 @@ switch (estado) {
         } else {
             y = y_ground;
             estado = "escondido";
-            alarm[0] = room_speed * 2; // espera 2s pra subir de novo
+			obj_enemy.alarm[0] = 30;
 			image_alpha = 0;
+			obj_enemy.timer_c3 = 0;
         }
         break;
 	case "ativo":
-		y = lerp(y,obj_player.y,0.02)
+		y = lerp(y,obj_player.y,0.05)
 	break;
+}
+
+if (estado = "escondido"){
+	obj_enemy.estado_boss = 1;
 }
