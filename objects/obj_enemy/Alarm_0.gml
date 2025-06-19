@@ -18,7 +18,7 @@ switch(estado_boss){
 		if(alarm[1] <= 0)
 			alarm[1] = 120
 		if(ativado)
-			dir = lerp(dir,40,0.1)
+			dir = lerp(dir,15,0.1)
 	
 		var _eye = instance_create_layer(x, y, layer, obj_eye);
 		_eye.direction = point_direction(x,y,room_width/2 -dir,room_height/2);
