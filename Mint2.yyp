@@ -35,6 +35,7 @@
   },
   "name":"Mint2",
   "resources":[
+    {"id":{"name":"obj_enemy_clone","path":"objects/obj_enemy_clone/obj_enemy_clone.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},},
     {"id":{"name":"obj_eye","path":"objects/obj_eye/obj_eye.yy",},},

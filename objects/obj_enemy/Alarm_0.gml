@@ -37,5 +37,7 @@ switch(estado_boss){
 		instance_create_layer(x - 200, y + 100, layer, obj_enemy3);
 		alarm[0] = 1000;
 	break;
+
 }
+
 

@@ -7,3 +7,5 @@ dir = 200;
 dir_ini = dir;
 
 ativado = false;
+
+cria_clone = false;
