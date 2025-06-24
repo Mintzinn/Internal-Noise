@@ -20,3 +20,7 @@ if (side == false){
 }
 velh = vel;
 x += velh;
+
+scr_dano()
+
+
