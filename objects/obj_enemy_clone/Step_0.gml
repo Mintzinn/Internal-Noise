@@ -23,4 +23,9 @@ x += velh;
 
 scr_dano()
 
+if (vida <= 0){
+	obj_enemy.estado_boss = 0;
+	instance_destroy();
+}
+
 
