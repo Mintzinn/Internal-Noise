@@ -6,3 +6,7 @@ if (global.trans == false){
 	}
 }
 
+if (hp > hp_max){
+	hp = hp_max;
+}
+

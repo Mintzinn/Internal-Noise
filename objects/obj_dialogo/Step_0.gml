@@ -18,6 +18,9 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or ke
 			global.trans = false;
 			instance_destroy();
 			instance_destroy(obj_contorno);
+			if (name = "psico"){
+				obj_player.hp += 10;
+			}
 		}
 	}
 	
