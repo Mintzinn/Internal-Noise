@@ -1,1 +1,0 @@
-instance_create_layer(x-300,y+80,layer,obj_dialogo,{name: 1})

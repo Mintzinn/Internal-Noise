@@ -1,3 +1,5 @@
+global.trans = true;
+
 nome = "";
 palavras = "";
 texto[0] = "";

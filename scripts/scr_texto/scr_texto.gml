@@ -10,6 +10,10 @@ function scr_textos(){
 			texto[3] = "OLOCO3";
 			texto[4] = "OLOCO4";
 		break;
+		case "psico":
+			texto[0] = "Vc sabe que a culpa nao e sua ne?"
+			texto[1] = "Vai ficar tudo bem"
+		break;
 	}
 
 }

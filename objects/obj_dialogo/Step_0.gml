@@ -6,7 +6,7 @@ if(!inicializar){
 }
 
 
-if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter)){
+if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space)){
 	if(caractere < string_length(texto[pagina])){
 		caractere = string_length(texto[pagina]);
 	}else{
@@ -14,8 +14,11 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter)){
 			caractere = 0;
 			pagina ++;
 		}
-		else
+		else{
+			global.trans = false;
 			instance_destroy();
+			instance_destroy(obj_contorno);
+		}
 	}
 	
 	

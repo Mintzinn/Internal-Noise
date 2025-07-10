@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_eye",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_par_npc",
+  "eventList":[],
   "managed":true,
-  "name":"obj_eye",
+  "name":"obj_par_npc",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_eye",
-    "path":"sprites/spr_eye/spr_eye.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

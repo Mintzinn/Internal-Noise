@@ -29,4 +29,11 @@ function scr_player(){
             velv = 0;
         }
         y += velv;
+		
+	if (keyboard_check_pressed(ord("E"))){
+		if (distance_to_object(obj_par_npc) < 30){
+			instance_create_layer(50,y,layer,obj_contorno);
+			instance_create_layer(x,y,layer,obj_dialogo,{delay: 4,name: instance_nearest(x, y, obj_par_npc).nome});
+		}
+	}
 }
