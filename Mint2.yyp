@@ -39,6 +39,8 @@
   "resources":[
     {"id":{"name":"m5x7","path":"fonts/m5x7/m5x7.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_contorno","path":"objects/obj_contorno/obj_contorno.yy",},},
+    {"id":{"name":"obj_controlador","path":"objects/obj_controlador/obj_controlador.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"obj_enemy_clone","path":"objects/obj_enemy_clone/obj_enemy_clone.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},

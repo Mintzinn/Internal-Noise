@@ -13,4 +13,4 @@ draw_set_font(m5x7);
 
 
 var _textfx = string_copy(texto[pagina],1,caractere)
-draw_text_ext(_xx + 142, _yy,_textfx,32,_guil-160);
+var _text = draw_text_ext(obj_contorno.x+84, obj_contorno.y+280,_textfx,32,_guil-160);
