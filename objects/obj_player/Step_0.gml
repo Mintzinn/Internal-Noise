@@ -10,3 +10,15 @@ if (hp > hp_max){
 	hp = hp_max;
 }
 
+if (niv_ansi > niv_ansi_max){
+	niv_ansi = niv_ansi_max;
+}
+
+if (alarm[0] <= 0){
+	niv_ansi -= 1;
+	alarm[0] = 60;
+}
+
+if (niv_ansi <=0){
+	niv_ansi = 0;
+}
