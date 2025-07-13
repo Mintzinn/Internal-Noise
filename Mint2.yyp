@@ -78,9 +78,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"psicologo","path":"rooms/psicologo/psicologo.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"teste","path":"rooms/teste/teste.yy",},},
-    {"roomId":{"name":"psicologo","path":"rooms/psicologo/psicologo.yy",},},
     {"roomId":{"name":"Quarto","path":"rooms/Quarto/Quarto.yy",},},
   ],
   "templateType":null,
