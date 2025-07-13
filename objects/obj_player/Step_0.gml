@@ -22,3 +22,7 @@ if (alarm[0] <= 0){
 if (niv_ansi <=0){
 	niv_ansi = 0;
 }
+
+if (dmg_cd > 0) {
+    dmg_cd--;
+}

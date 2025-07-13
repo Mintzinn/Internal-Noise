@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_eye",
-  "eventList":[],
+  "%Name":"obj_memoria",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_eye",
+  "name":"obj_memoria",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_eye",
-    "path":"sprites/spr_eye/spr_eye.yy",
+    "name":"spr_memoria",
+    "path":"sprites/spr_memoria/spr_memoria.yy",
   },
   "spriteMaskId":null,
   "visible":true,

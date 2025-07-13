@@ -6,6 +6,7 @@ velv = 0;
 
 hp_max= 20;
 hp = hp_max;
+dmg_cd = 0;
 
 niv_ansi_max = 100;
 niv_ansi = niv_ansi_max;

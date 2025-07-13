@@ -14,6 +14,14 @@ function scr_textos(){
 			texto[0] = "Vc sabe que a culpa nao e sua ne?"
 			texto[1] = "Vai ficar tudo bem"
 		break;
+		case "npc1":
+			texto[0] = "Ola"
+			texto[1] = "Consegue levar isso pra mim?"
+		break;
+		case "npc2":
+			texto[0] = "Oiiiii"
+			texto[1] = "Muito obrigadaaaaaa"
+		break;
 	}
 
 }

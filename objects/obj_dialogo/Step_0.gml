@@ -21,6 +21,13 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or ke
 			if (name = "psico"){
 				obj_player.niv_ansi += 50;
 			}
+			if (name = "npc1"){
+				instance_create_layer(obj_player.x, obj_player.y, layer, obj_memoria);
+			}
+			if (name = "npc2"){
+				obj_player.niv_ansi += 50;
+				instance_destroy(obj_memoria);
+			}
 		}
 	}
 	
