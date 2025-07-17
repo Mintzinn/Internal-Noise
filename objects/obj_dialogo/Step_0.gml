@@ -4,7 +4,8 @@ if(!inicializar){
     inicializar = !inicializar;
 	
 }
-
+wid = lerp(wid,64,0.1);
+hei = lerp(hei,64,0.1);
 
 if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space)){
 	if(caractere < string_length(texto[pagina])){
@@ -17,7 +18,7 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or ke
 		else{
 			global.trans = false;
 			instance_destroy();
-			instance_destroy(obj_contorno);
+
 			if (name = "psico"){
 				obj_player.niv_ansi += 50;
 			}

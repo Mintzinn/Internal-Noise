@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_corrente_dir",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_trilho",
+  "eventList":[],
   "managed":true,
-  "name":"obj_corrente_dir",
+  "name":"obj_trilho",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_corrente_direita",
-    "path":"sprites/spr_corrente_direita/spr_corrente_direita.yy",
+    "name":"spr_trilho",
+    "path":"sprites/spr_trilho/spr_trilho.yy",
   },
   "spriteMaskId":null,
   "visible":true,

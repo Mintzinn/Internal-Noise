@@ -2,8 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_player(){
 	
+	
 
-	randomise();	
+	randomise();
 	var _left, _right, _down, _up;
 	
 	_left = keyboard_check(ord("A"));
@@ -32,8 +33,15 @@ function scr_player(){
 		
 	if (keyboard_check_pressed(ord("E"))){
 		if (distance_to_object(obj_par_npc) < 30){
-			instance_create_layer(50,y,layer,obj_contorno);
 			instance_create_layer(x,y,layer,obj_dialogo,{delay: 4,name: instance_nearest(x, y, obj_par_npc).nome});
 		}
 	}
+	
+	
+	if(velh > 0)
+		image_xscale = 1
+	else if(velh < 0)
+		image_xscale = -1;
+	
+	
 }

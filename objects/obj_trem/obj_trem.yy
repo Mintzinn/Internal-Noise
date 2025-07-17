@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_contorno",
+  "%Name":"obj_trem",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_contorno",
+  "name":"obj_trem",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dialogo",
-    "path":"sprites/spr_dialogo/spr_dialogo.yy",
+    "name":"spr_trem",
+    "path":"sprites/spr_trem/spr_trem.yy",
   },
   "spriteMaskId":null,
   "visible":true,

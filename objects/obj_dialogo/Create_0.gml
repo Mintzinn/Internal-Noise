@@ -1,5 +1,8 @@
 global.trans = true;
 
+wid = 0;
+hei = 0;
+
 nome = "";
 palavras = "";
 texto[0] = "";
