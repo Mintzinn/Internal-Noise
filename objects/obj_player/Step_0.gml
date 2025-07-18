@@ -26,3 +26,9 @@ if (niv_ansi <=0){
 if (dmg_cd > 0) {
     dmg_cd--;
 }
+
+if (velh != 0 or velv != 0){
+	sprite_index = spr_player_walk;
+}else{
+	sprite_index = spr_player_iddle;
+}
