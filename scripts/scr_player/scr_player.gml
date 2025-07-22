@@ -43,5 +43,4 @@ function scr_player(){
 	else if(velh < 0)
 		image_xscale = -1;
 	
-	
 }

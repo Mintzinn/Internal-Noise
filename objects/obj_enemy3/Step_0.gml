@@ -1,8 +1,8 @@
 switch (estado) {
     case "subindo":
         if (y > y_alvo) {
-            y -= 0.5; // sobe devagar
-        image_alpha += 0.05; // aumenta visibilidade
+            y -= 0.5;
+        image_alpha += 0.05;
         image_alpha = clamp(image_alpha, 0, 1);
         } else {
             y = y_alvo;
@@ -16,7 +16,7 @@ switch (estado) {
     case "descendo":
         if (y < y_ground) {
             y += 0.5;
-        image_alpha -= 0.05; // diminui visibilidade
+        image_alpha -= 0.05;
         image_alpha = clamp(image_alpha, 0, 1);
         } else {
             y = y_ground;

@@ -16,4 +16,10 @@ alarm[0] = 60;
 radius_min    = 200;
 radius_max    = -1;
 surf_mask     = -1;
-	
+
+som_tocando = false;
+som_id = -1;
+
+text_alpha = 0;
+fade_speed = 0.02;
+fading_in = false;
