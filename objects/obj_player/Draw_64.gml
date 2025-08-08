@@ -88,3 +88,5 @@ if (text_alpha > 0) {
     draw_set_alpha(1);
 }
 #endregion
+
+draw_text(20,20,"Room: "+ string(room));

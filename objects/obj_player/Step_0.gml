@@ -81,9 +81,12 @@ else if (som_tocando == false && text_alpha > 0) {
 
 #region Mudança de Salas ( e fade )
 
-if(distance_to_object(instance_nearest(x,y,obj_porta)) < 10){
+
+if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
 	if(keyboard_check_pressed(ord("E")))
 		scr_fade(120,c_black);
+	
+		
 }
 
 #endregion

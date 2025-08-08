@@ -1,12 +1,26 @@
 function scr_fade(_duration,_color){
 var _room_alvo = 0;
+
 switch(room){
     case rm_quarto:
         _room_alvo = rm_sala_principal;
+
     break;
     
+	case rm_sala_principal:
+		
+		_room_alvo = rm_fliperama;
+
+	break;
+	case rm_fliperama:
+		_room_alvo = rm_sala_principal
+
+		
+	break;
 
 }
+
+
 
 
 
@@ -16,6 +30,7 @@ with (_instace){
     room_alvo = _room_alvo;
     duration = _duration;
     color = _color;
+
 }
 
 
