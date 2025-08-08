@@ -1,6 +1,3 @@
-draw_text(50,110, hp);
-draw_text(50,130, niv_ansi);
-
 #region Sombra de ansiedade
 draw_set_circle_precision(128);
 

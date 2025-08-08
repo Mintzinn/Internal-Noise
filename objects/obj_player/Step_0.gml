@@ -42,7 +42,7 @@ if (room = rm_quarto){
 #region Musica caixa de som
 var dist = point_distance(x, y, obj_caixa_som.x, obj_caixa_som.y);
 
-if (dist <= 20 && keyboard_check_pressed(ord("E"))) {
+if (dist <= 40 && keyboard_check_pressed(ord("E"))) {
     if (!som_tocando) {
         som_id = audio_play_sound(snd_prata_puma, 1, true);
         som_tocando = true;

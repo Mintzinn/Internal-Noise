@@ -9,7 +9,10 @@
     "name":"objetos",
     "path":"folders/Objects/objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interar",
+    "path":"objects/obj_interar/obj_interar.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

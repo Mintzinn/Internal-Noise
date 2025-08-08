@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_caixa_som",
-  "eventList":[],
+  "%Name":"obj_interar",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_caixa_som",
+  "name":"obj_interar",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/Objects/objetos.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interar",
-    "path":"objects/obj_interar/obj_interar.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_caixa_som",
-    "path":"sprites/spr_caixa_som/spr_caixa_som.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
