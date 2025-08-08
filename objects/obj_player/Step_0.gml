@@ -90,3 +90,11 @@ if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
 }
 
 #endregion
+
+if(distance_to_object(instance_nearest(x,y,obj_documento)) < 20){
+	if(keyboard_check_pressed(ord("E"))){
+		global.trans = true;
+		instance_nearest(x,y,obj_documento).ativo = true
+	}
+		
+}
