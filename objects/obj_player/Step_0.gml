@@ -40,6 +40,7 @@ if (room = rm_quarto){
 #endregion
 
 #region Musica caixa de som
+if(instance_exists(obj_caixa_som)){
 var dist = point_distance(x, y, obj_caixa_som.x, obj_caixa_som.y);
 
 if (dist <= 40 && keyboard_check_pressed(ord("E"))) {
@@ -75,4 +76,14 @@ else if (som_tocando == false && text_alpha > 0) {
         text_alpha = 0;
     }
 }
+}
+#endregion
+
+#region Mudança de Salas ( e fade )
+
+if(distance_to_object(instance_nearest(x,y,obj_porta)) < 10){
+	if(keyboard_check_pressed(ord("E")))
+		scr_fade(120,c_black);
+}
+
 #endregion
