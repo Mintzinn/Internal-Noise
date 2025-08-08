@@ -90,3 +90,13 @@ if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
 }
 
 #endregion
+
+#region Documentos
+
+if (distance_to_object(obj_documentos) <= 40){
+	if (keyboard_check_pressed(ord("E"))){
+		instance_create_layer(x, y, "documentos", obj_documentos)
+	}
+}
+
+#endregion
