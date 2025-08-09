@@ -11,3 +11,5 @@ switch(room){
 		}
 	break;
 }
+
+alpha = 0;

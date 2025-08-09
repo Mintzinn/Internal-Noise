@@ -11,5 +11,4 @@ state = 0;
 porta = 0;
 if(room == rm_sala_principal){
 global.ultima_pos = [obj_player.x,obj_player.y];
-show_debug_message(global.ultima_pos)
 }

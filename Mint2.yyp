@@ -65,6 +65,7 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},},
+    {"id":{"name":"obj_player_fliperama","path":"objects/obj_player_fliperama/obj_player_fliperama.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"obj_prateleira","path":"objects/obj_prateleira/obj_prateleira.yy",},},

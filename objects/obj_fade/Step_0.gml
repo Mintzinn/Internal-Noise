@@ -11,7 +11,7 @@ if (state == 0){
     }
 }else{
     if (state == 1){
-        timer -= 0.5;
+        timer -= 5;
         if (timer <= 0){
             draw_set_color(c_white);
 			

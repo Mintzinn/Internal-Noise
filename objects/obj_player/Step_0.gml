@@ -84,17 +84,17 @@ else if (som_tocando == false && text_alpha > 0) {
 
 if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
 	if(keyboard_check_pressed(ord("E")))
-		scr_fade(120,c_black);
-	
-		
+		scr_fade(180,c_black);
 }
 
 #endregion
 
-if(distance_to_object(instance_nearest(x,y,obj_documento)) < 20){
+#region Documento
+if (instance_exists(obj_documento)){
+if(distance_to_object(instance_nearest(x,y,obj_documento)) <= 20){
 	if(keyboard_check_pressed(ord("E"))){
-		global.trans = true;
-		instance_nearest(x,y,obj_documento).ativo = true
+		instance_nearest(x,y,obj_documento).ativo = !obj_documento.ativo;
+		}
 	}
-		
 }
+#endregion

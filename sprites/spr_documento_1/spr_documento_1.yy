@@ -23,7 +23,7 @@
   ],
   "name":"spr_documento_1",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"documentos",
     "path":"folders/Sprites/documentos.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":512,
     "yorigin":0,
   },
   "swatchColours":null,
