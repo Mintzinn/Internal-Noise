@@ -80,8 +80,6 @@ else if (som_tocando == false && text_alpha > 0) {
 #endregion
 
 #region Mudança de Salas ( e fade )
-
-
 if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
 	if(keyboard_check_pressed(ord("E")))
 		scr_fade(180,c_black);
@@ -96,5 +94,15 @@ if(distance_to_object(instance_nearest(x,y,obj_documento)) <= 20){
 		instance_nearest(x,y,obj_documento).ativo = !obj_documento.ativo;
 		}
 	}
+}
+#endregion
+
+#region Abajur
+if (instance_exists(obj_abajur)){
+	if(distance_to_object(obj_abajur) <= 40){
+		if(keyboard_check_pressed(ord("E"))){
+			obj_iluminacao_abajur.ligado = !obj_iluminacao_abajur.ligado;
+			}
+		}
 }
 #endregion

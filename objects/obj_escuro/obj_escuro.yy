@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_escuro",
+  "eventList":[],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_escuro",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
