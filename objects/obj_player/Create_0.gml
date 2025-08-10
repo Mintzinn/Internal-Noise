@@ -1,3 +1,5 @@
+depth = -1;
+
 global.trans = false;
 
 vel = 2;
