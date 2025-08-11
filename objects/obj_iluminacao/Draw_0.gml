@@ -6,8 +6,10 @@ if (surface_exists(sombra_surface)){
     draw_set_color(c_black);
     draw_set_alpha(0.5);
     
-    draw_circle(obj_escuro.x, obj_escuro.y, 75, false);
-    draw_circle(obj_escuro.x, obj_escuro.y, 108, false);
+    with(obj_escuro) {
+        draw_circle(x, y, 108, false);
+        draw_circle(x, y, 146, false);
+    }
     
     draw_set_alpha(1);
 

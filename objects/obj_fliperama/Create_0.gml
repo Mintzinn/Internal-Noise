@@ -1,0 +1,1 @@
+fliperama_1_ativado = false;

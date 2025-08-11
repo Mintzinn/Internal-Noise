@@ -39,6 +39,16 @@ if (room = rm_quarto){
 }
 #endregion
 
+#region Mudança de Salas ( e fade )
+if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
+	if(keyboard_check_pressed(ord("E")))
+		scr_fade(180,c_black);
+}
+
+#endregion
+
+#region Interagiveis
+
 #region Musica caixa de som
 if(instance_exists(obj_caixa_som)){
 var dist = point_distance(x, y, obj_caixa_som.x, obj_caixa_som.y);
@@ -79,14 +89,6 @@ else if (som_tocando == false && text_alpha > 0) {
 }
 #endregion
 
-#region Mudança de Salas ( e fade )
-if(distance_to_object(instance_nearest(x,y,obj_porta)) < 40){
-	if(keyboard_check_pressed(ord("E")))
-		scr_fade(180,c_black);
-}
-
-#endregion
-
 #region Documento
 if (instance_exists(obj_documento)){
 if(distance_to_object(instance_nearest(x,y,obj_documento)) <= 20){
@@ -105,4 +107,18 @@ if (instance_exists(obj_abajur)){
 			}
 		}
 }
+#endregion
+
+#region Flperama
+if (instance_exists(obj_fliperama)){
+    if (distance_to_object(obj_fliperama) <= 40){
+        if (keyboard_check_pressed(ord("E"))){
+            obj_fliperama.fliperama_1_ativado = !obj_fliperama.fliperama_1_ativado;
+            obj_fliperama.alarm[0] = 1;
+        }
+    }
+}
+
+#endregion
+
 #endregion

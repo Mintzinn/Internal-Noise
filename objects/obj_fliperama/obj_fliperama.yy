@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_fliperama",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_fliperama",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"objetos",
     "path":"folders/Objects/objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interar",
+    "path":"objects/obj_interar/obj_interar.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_armario",
-    "path":"sprites/spr_armario/spr_armario.yy",
+    "name":"spr_fliperama",
+    "path":"sprites/spr_fliperama/spr_fliperama.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_fliperama",
+    "path":"sprites/spr_fliperama/spr_fliperama.yy",
+  },
   "visible":true,
 }
