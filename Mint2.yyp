@@ -77,7 +77,8 @@
     {"id":{"name":"obj_trilho","path":"objects/obj_trilho/obj_trilho.yy",},},
     {"id":{"name":"obj_vaso","path":"objects/obj_vaso/obj_vaso.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"rm_fliperama","path":"rooms/rm_fliperama/rm_fliperama.yy",},},
+    {"id":{"name":"rm_game_1","path":"rooms/rm_game_1/rm_game_1.yy",},},
+    {"id":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
     {"id":{"name":"rm_quarto","path":"rooms/rm_quarto/rm_quarto.yy",},},
     {"id":{"name":"rm_sala_principal","path":"rooms/rm_sala_principal/rm_sala_principal.yy",},},
     {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"spr_abajur","path":"sprites/spr_abajur/spr_abajur.yy",},},
     {"id":{"name":"spr_armario","path":"sprites/spr_armario/spr_armario.yy",},},
     {"id":{"name":"spr_balao","path":"sprites/spr_balao/spr_balao.yy",},},
+    {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
     {"id":{"name":"spr_caixa_som","path":"sprites/spr_caixa_som/spr_caixa_som.yy",},},
     {"id":{"name":"spr_dialogo","path":"sprites/spr_dialogo/spr_dialogo.yy",},},
     {"id":{"name":"spr_documento_1","path":"sprites/spr_documento_1/spr_documento_1.yy",},},
@@ -126,7 +128,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_quarto","path":"rooms/rm_quarto/rm_quarto.yy",},},
     {"roomId":{"name":"rm_sala_principal","path":"rooms/rm_sala_principal/rm_sala_principal.yy",},},
-    {"roomId":{"name":"rm_fliperama","path":"rooms/rm_fliperama/rm_fliperama.yy",},},
+    {"roomId":{"name":"rm_game_1","path":"rooms/rm_game_1/rm_game_1.yy",},},
+    {"roomId":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

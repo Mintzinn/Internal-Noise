@@ -32,7 +32,7 @@ function scr_player(){
         y += velv;
 		
 	if (keyboard_check_pressed(ord("E"))){
-		if (distance_to_object(obj_par_npc) < 30){
+		if (distance_to_object(obj_par_npc) < 40){
 			instance_create_layer(x,y,layer,obj_dialogo,{delay: 4,name: instance_nearest(x, y, obj_par_npc).nome});
 		}
 	}

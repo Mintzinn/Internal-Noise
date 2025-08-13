@@ -16,7 +16,7 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter) or ke
 			pagina ++;
 		}
 		else{
-			global.trans = false;
+			global.trans = true;
 			instance_destroy();
 
 			if (name = "psico"){

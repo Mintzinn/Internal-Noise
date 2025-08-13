@@ -1,7 +1,7 @@
 if (state == 0){
     timer += 5;
     if (timer >= duration){
-		if(room == rm_fliperama){
+		if(room == rm_game_1){
 			instance_create_layer(x,y,"Instances",obj_redirect,{});
 		}
         room_goto(room_alvo);
