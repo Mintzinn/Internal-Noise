@@ -1,6 +1,4 @@
-depth = -1;
-
-global.pause = true;
+global.pause = false;
 global.trans = true;
 
 vel = 2;

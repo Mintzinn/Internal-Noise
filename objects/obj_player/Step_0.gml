@@ -3,7 +3,7 @@ if (keyboard_check_pressed(vk_escape)){
 	global.pause = !global.pause;
 }
 
-if (global.trans|| global.pause){
+if (global.trans|| global.pause == false){
 	scr_player();
 
 	if (hp <= 0){
