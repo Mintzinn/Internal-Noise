@@ -42,6 +42,7 @@
   },
   "name":"Mint2",
   "resources":[
+    {"id":{"name":"lucy","path":"fonts/lucy/lucy.yy",},},
     {"id":{"name":"m5x7","path":"fonts/m5x7/m5x7.yy",},},
     {"id":{"name":"obj_abajur","path":"objects/obj_abajur/obj_abajur.yy",},},
     {"id":{"name":"obj_armario","path":"objects/obj_armario/obj_armario.yy",},},
@@ -89,7 +90,6 @@
     {"id":{"name":"spr_abajur","path":"sprites/spr_abajur/spr_abajur.yy",},},
     {"id":{"name":"spr_armario","path":"sprites/spr_armario/spr_armario.yy",},},
     {"id":{"name":"spr_balao","path":"sprites/spr_balao/spr_balao.yy",},},
-    {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
     {"id":{"name":"spr_caixa_som","path":"sprites/spr_caixa_som/spr_caixa_som.yy",},},
     {"id":{"name":"spr_dialogo","path":"sprites/spr_dialogo/spr_dialogo.yy",},},
     {"id":{"name":"spr_documento_1","path":"sprites/spr_documento_1/spr_documento_1.yy",},},

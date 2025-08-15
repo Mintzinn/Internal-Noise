@@ -24,10 +24,3 @@ som_id = -1;
 text_alpha = 0;
 fade_speed = 0.02;
 fading_in = false;
-
- //Se eu quiser dar funcao pros botoes: acao_script: scr_acao_botao_superior
-menu_botoes = [
-    { y: -200},
-    { y: 0},
-    { y: 200}
-];
