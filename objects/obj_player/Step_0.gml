@@ -113,7 +113,7 @@ if (instance_exists(obj_abajur)){
 }
 #endregion
 
-#region Flperama
+#region Fliperama
 if (instance_exists(obj_fliperama)){
     if (distance_to_object(obj_fliperama) <= 40){
         if (keyboard_check_pressed(ord("E"))){

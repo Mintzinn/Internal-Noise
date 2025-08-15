@@ -89,3 +89,35 @@ if (text_alpha > 0) {
 }
 #endregion
 
+#region Pause
+if (global.pause){
+	var _pos_butao_x = display_get_gui_width()/2;
+	var _pos_butao_y_centro = display_get_gui_height()/2;
+	var _escala = 3;
+	draw_set_alpha(.8);
+	draw_set_color(c_black);
+	draw_rectangle(0, 0, room_width, room_height, false);
+	var _largura_butao_escalada = sprite_get_width(spr_botao) * _escala;
+	var _altura_butao_escalada = sprite_get_height(spr_botao) * _escala;
+	for (var i = 0; i < array_length(menu_botoes); i++) {
+		var _butao = menu_botoes[i];
+		var _y_final = _pos_butao_y_centro + _butao.y;
+		var _subimagem_botao = 0;
+		var _x1 = _pos_butao_x - _largura_butao_escalada / 2;
+		var _y1 = _y_final - _altura_butao_escalada / 2;
+		var _x2 = _pos_butao_x + _largura_butao_escalada / 2;
+		var _y2 = _y_final + _altura_butao_escalada / 2;
+		if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), _x1, _y1, _x2, _y2)){
+			_subimagem_botao = 1;
+			if (mouse_check_button_pressed(mb_left)){
+				// Chama a ação do botão usando o script
+				script_execute(_butao.acao_script);
+			}
+		}
+		draw_sprite_ext(spr_botao, _subimagem_botao, _pos_butao_x, _y_final, _escala, _escala, 0, c_white, 1);
+	}
+
+	draw_set_alpha(1);
+	draw_set_color(c_white);
+}
+#endregion
