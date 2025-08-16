@@ -91,15 +91,16 @@ if (text_alpha > 0) {
 
 #region Pause
 if (global.pause) {
+    var _fonte_anterior = draw_get_font();
     var _pos_butao_x = display_get_gui_width() / 2;
     var _pos_butao_y_centro = display_get_gui_height() / 2;
     var _espacamento = 100;
-    var textos = ["Continuar", "Opções", "Sair"];
+    var textos = ["Continue", "Options", "Exit"];
 
     if (!variable_global_exists("menu_escalas")) {
         global.menu_escalas = array_create(array_length(textos), 1);
     }
-
+    
     draw_set_alpha(0.8);
     draw_set_color(c_black);
     draw_rectangle(0, 0, room_width, room_height, false);
@@ -131,12 +132,11 @@ if (global.pause) {
             }
         } else {
             draw_set_color(c_white);
-            global.menu_escalas[i] = lerp(global.menu_escalas[i], 1, 0.2); // Volta ao normal suavemente
+            global.menu_escalas[i] = lerp(global.menu_escalas[i], 1, 0.2);
         }
-
         draw_text_transformed(_pos_butao_x, _y_final, _texto, global.menu_escalas[i], global.menu_escalas[i], 0);
     }
-
+    draw_set_font(_fonte_anterior);
     draw_set_color(c_white);
 }
 #endregion
